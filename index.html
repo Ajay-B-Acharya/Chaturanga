@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chaturanga</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Cormorant+Garamond:wght@400;600;700&display=swap');
+      
+      body {
+        font-family: 'Cormorant Garamond', serif;
+        background: radial-gradient(circle at center, #2a231d 0%, #0c0a09 100%);
+        color: #e7e5e4;
+        min-height: 100vh;
+      }
+      
+      h1, h2, h3, h4, .font-display {
+        font-family: 'Cinzel', serif;
+      }
+
+      /* Custom scrollbar for game log */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #1c1917;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #44403c;
+        border: 1px solid #78350f;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #57534e;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
