@@ -50,24 +50,6 @@ This repository contains:
 | Assets | AI-generated ancient-themed icons |
 | Game Logic | Rule-based (not Python) |
 
-## 🚀 How to Use This Project
-
-1.  Use the prompts in `/prompts` to generate UI through Google AI Studio.
-2.  Import or recreate the UI inside Antigravity IDE.
-3.  Apply the movement & summoning rules to control gameplay interactions.
-4.  Use the ancient-themed assets in `/assets` to match the visual style.
-
-## 📂 Repository Structure
-
-```
-/chaturanga
- ├── prompts/               # Google AI Studio prompts
- ├── antigravity/           # IDE project files
- ├── rules/                 # Full game rules and attack logic
- ├── assets/                # Ancient themed artwork & icons
- └── README.md
-```
-
 ## 📘 Rulebook Summary
 
 *   Forward-only movement
